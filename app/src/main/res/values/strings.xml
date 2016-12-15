@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AudioTest</string>
+
+    <!-- HomeActivity -->
+    <string name="speaker">Music</string>
+    <string name="fmRadio">FmRadio</string>
+    <string name="speakerDial">SpeakerDial</string>
+    <string name="receiverDial">ReceiverDial</string>
+    <string name="voip">VoIP</string>
+
+</resources>
