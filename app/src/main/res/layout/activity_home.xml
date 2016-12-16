@@ -12,32 +12,20 @@
     tools:context="com.arvelm.audiotest.HomeActivity">
 
     <Button
-        android:id="@+id/speaker_button"
-        android:text="@string/speaker"
-        style="@style/HomeButton"
-        android:onClick="onClickHomeButton"/>
-
-    <Button
-        android:id="@+id/fmRadio_button"
-        android:text="@string/fmRadio"
+        android:id="@+id/music_button"
+        android:text="@string/music"
         style="@style/HomeButton"
         android:onClick="onClickHomeButton"/>
 
     <Button
         android:id="@+id/speakerDial_button"
-        android:text="@string/speakerDial"
-        style="@style/HomeButton"
-        android:onClick="onClickHomeButton" />
-
-    <Button
-        android:id="@+id/receiverDial_button"
-        android:text="@string/receiverDial"
+        android:text="@string/inCall"
         style="@style/HomeButton"
         android:onClick="onClickHomeButton" />
 
     <Button
         android:id="@+id/voip_button"
-        android:text="@string/voip"
+        android:text="@string/voIP"
         style="@style/HomeButton"
         android:onClick="onClickHomeButton"/>
 

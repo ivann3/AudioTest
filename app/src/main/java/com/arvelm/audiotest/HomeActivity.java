@@ -1,9 +1,9 @@
 package com.arvelm.audiotest;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -16,24 +16,29 @@ public class HomeActivity extends AppCompatActivity {
 
     public void onClickHomeButton(View view) {
         switch (view.getId()) {
-            case R.id.speaker_button:
-                Toast.makeText(this,"Music",Toast.LENGTH_SHORT).show();
+            case R.id.music_button:
+//                Toast.makeText(this,"Music",Toast.LENGTH_SHORT).show();
+                startSubActivity(MusicActivity.class);
                 break;
-            case R.id.fmRadio_button:
-                Toast.makeText(this,"FmRadio",Toast.LENGTH_SHORT).show();
-                break;
+
             case R.id.speakerDial_button:
-                Toast.makeText(this,"SpeakerDial",Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this,"SpeakerDial",Toast.LENGTH_SHORT).show();
+                startSubActivity(InCallActivity.class);
                 break;
-            case R.id.receiverDial_button:
-                Toast.makeText(this,"ReceiverDial",Toast.LENGTH_SHORT).show();
-                break;
+
             case R.id.voip_button:
-                Toast.makeText(this,"VoIP",Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this,"VoIP",Toast.LENGTH_SHORT).show();
+                startSubActivity(VoIPActivity.class);
                 break;
             default:
                 break;
         }
+    }
+
+
+    private void startSubActivity(Class clazz) {
+        Intent intent = new Intent(this,clazz);
+        startActivity(intent);
     }
 
 

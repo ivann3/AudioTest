@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="homeColor_1">#4fc1f7</color>
     <color name="homeColor_2">#7853b9</color>
+    <color name="whiteColor">#FFFFFF</color>
 </resources>
