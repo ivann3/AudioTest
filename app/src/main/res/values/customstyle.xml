@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HomeButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor"> @drawable/btntextcolor</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:background">@drawable/btndisplay</item>
+    </style>
+
+    <style name="InCallButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/btntextcolor</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:background">@drawable/btndisplay</item>
+    </style>
+
+    <style name="VolumeTextView">
+        <item name="android:layout_width">match_parent</item>>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/volume</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>>
+</resources>
