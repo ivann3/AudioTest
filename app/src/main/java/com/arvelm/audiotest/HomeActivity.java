@@ -11,23 +11,20 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-
     }
+
 
     public void onClickHomeButton(View view) {
         switch (view.getId()) {
             case R.id.music_button:
-//                Toast.makeText(this,"Music",Toast.LENGTH_SHORT).show();
                 startSubActivity(MusicActivity.class);
                 break;
 
             case R.id.speakerDial_button:
-//                Toast.makeText(this,"SpeakerDial",Toast.LENGTH_SHORT).show();
                 startSubActivity(InCallActivity.class);
                 break;
 
             case R.id.voip_button:
-//                Toast.makeText(this,"VoIP",Toast.LENGTH_SHORT).show();
                 startSubActivity(VoIPActivity.class);
                 break;
             default:

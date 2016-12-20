@@ -9,5 +9,6 @@
     <!-- sub Activity -->
     <string name="speaker">Speaker</string>
     <string name="receiver">Receiver</string>
+    <string name="volume">Volume </string>
 
 </resources>

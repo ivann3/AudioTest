@@ -18,6 +18,11 @@
         android:onClick="onPlay"
         />
 
+    <TextView
+        android:id="@+id/volume_textView"
+        style="@style/VolumeTextView"
+        />
+
     <Button
         android:id="@+id/receiver_button"
         style="@style/InCallButton"
