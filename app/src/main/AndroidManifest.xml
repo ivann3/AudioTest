@@ -19,7 +19,6 @@
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -27,15 +26,19 @@
         <!-- MusicActivity -->
         <activity
             android:name=".MusicActivity"
+			android:screenOrientation="portrait"
             android:launchMode="singleTop" />
 
         <!-- InCallActivity -->
         <activity
             android:name=".InCallActivity"
+			android:screenOrientation="portrait"
             android:launchMode="singleTop" />
 
         <!-- VoIPActivity -->
-        <activity android:name=".VoIPActivity"
+        <activity 
+			android:name=".VoIPActivity"
+			android:screenOrientation="portrait"
             android:launchMode="singleTop"/>
     </application>
 
